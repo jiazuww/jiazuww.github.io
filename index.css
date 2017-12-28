@@ -1,0 +1,99 @@
+body {
+    background: #f9f9f9 url(bg.png);
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+  
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+  .swiper-container {
+    margin-top: 1px;  
+    width: 100%;
+    height: 25rem;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+      background-color: #337ab7;
+      color:white;
+  }
+
+
+.main-header{
+    margin: 0;
+    padding: 5px 5px;
+    margin: 0 -15px;
+}
+.main-logo{
+    margin: 0;
+    height: 80px;
+    background: url(./static/logo.png) no-repeat;
+}
+.main-slogan{
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 6rem;
+}
+.main-slogan2{
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 6.2rem;
+}
+
+
+.contact-us{
+    margin-top: 2rem;
+    padding-left: 15px;
+    margin-left: 6rem;
+}
+
+.index-spliter{
+    width:100%;height:1px;margin:0px auto;padding:0px;background-color:#D5D5D5;overflow:hidden;
+}
+.about-row{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 16px;
+}
+.menu-h{
+    margin-top: 3rem;
+}
+.menu-h-sub{
+    margin-top: 1.5rem;
+}
+.masthead{
+    padding-top: 10px;
+}
+.product-different {
+    margin-top: 2rem;
+}
+.banner3{
+    margin-top: 2rem;
+}
+
+

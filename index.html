@@ -1,3 +1,166 @@
-<html>
-  <body>jiazuww</body>
-  </html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="swiper.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+  <div class="container-fluid">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row bg-primary main-header" id="main-start">
+        <div class="col-xs-12 main-logo">
+            <h3 class="text-left main-slogan">家族旺旺 成长记录</h3>
+            <h5 class="text-left main-slogan2">专业 专注 品质 信赖</h5>
+        </div>
+    </div>
+
+    <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap.-->
+    <div class="masthead">
+        <nav>
+            <ul class="nav nav-justified">
+            <li class="active"><a href="#main-start">网站首页</a></li>
+            <li><a href="#product-list">产品展示</a></li>
+            <li><a href="#">制作流程</a></li>
+            <li><a href="#about-us">关于我们</a></li>
+            <li><a href="#contact-us">联系方式</a></li>
+            </ul>
+        </nav>
+    </div> 
+
+    <!-- 4个banner -->
+
+    <!-- Swiper -->
+    <div class="swiper-container" >
+        <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./static/banner-1.jpg" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./static/banner-2.jpg" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./static/banner-3.jpg" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./static/banner-4.jpg" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+                </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    
+    <h4 id="product-list" class="menu-h">产品展示</h4> 
+    <div class="index-spliter"></div>
+    <!-- 三个封面部分 -->
+    <div class="row banner3">
+        <div class="col-xs-4">
+            <img src="./static/3-1.jpg" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+        </div>
+
+        <div class="col-xs-4">
+            <img src="./static/3-2.jpg" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+        </div>
+
+        <div class="col-xs-4">
+            <img src="./static/3-3.jpg" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+        </div>
+    </div>
+
+    <!-- 精品版和普通版的tab -->
+    <div class="product-different">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#normal" aria-controls="home" role="tab" data-toggle="tab">普通版</a></li>
+          <li role="presentation"><a href="#better" aria-controls="profile" role="tab" data-toggle="tab">精选版</a></li>
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content menu-h-sub">
+            <div role="tabpanel" class="tab-pane active" id="normal">
+                <img src="./static/2-1.png" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="better">
+                <img src="./static/2-2.png" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+
+    <h4 id="about-us" class="menu-h">关于我们</h4>   
+    <div class="index-spliter"></div> 
+        <p class="text-left lead about-row">您可爱的宝贝天生就是设计师、小作家、摄影家、小画家、运动员……。他们快乐茁壮地成长，吸收了丰富的知识，
+            画了很多美丽的小图画，写了很多精彩的小文章，记忆他们成长的点点滴滴；可是，一段时间过去后，您突然发现：
+            他们成长的过程什么都没有留下，这些珍贵的记忆因没有精心整理而找不到了……
+            “家族旺旺”，专业记录少年儿童的成长，为孩子的成长和家长的付出留下记录和回忆！
+            把您的文章给“家族旺旺”，我们还给您一本孩子的成长录。
+            我们奉行：“你成长，我记录，你精彩，家兴旺”
+        </p>
+
+    <!-- 联系我们，地址信息 -->
+    <h4 id="contact-us" class="menu-h">联系方式</h4> 
+    <div class="index-spliter"></div>
+    <div class="contact-us row text-center">
+        <address class="text-left">
+            地址： 北京市海淀区上地东路 <br>
+            版权所有： 北京普度荣鸿科技有限公司<br>
+            电话：18300000000<br>
+            邮箱： jiazuww@126.com
+        </address>
+    </div>    
+
+    <!-- Swiper JS -->
+    <script src="swiper.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script>
+       var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 20,
+            centeredSlides: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </div>  
+  </body>
+</html>
