@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
+    <title>家族旺旺,成长记录</title>
 
     <!-- Bootstrap -->
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
@@ -26,7 +26,7 @@
   </head>
   <body>
 
-  <div class="container-fluid">
+  <div class="container">
     <!-- Stack the columns on mobile by making one full-width and the other half-width -->
     <div class="row bg-primary main-header" id="main-start">
         <div class="col-xs-12 main-logo">
@@ -40,11 +40,10 @@
     <div class="masthead">
         <nav>
             <ul class="nav nav-justified">
-            <li class="active"><a href="#main-start">网站首页</a></li>
-            <li><a href="#product-list">产品展示</a></li>
-            <li><a href="#">制作流程</a></li>
-            <li><a href="#about-us">关于我们</a></li>
-            <li><a href="#contact-us">联系方式</a></li>
+            <li class="active"><a href="index.html">网站首页</a></li>
+            <li><a href="process.html">制作流程</a></li>
+            <li><a href="product.html">客户资料</a></li>
+            <li><a href="about.html">关于我们</a></li>
             </ul>
         </nav>
     </div> 
@@ -101,38 +100,103 @@
       
         <!-- Tab panes -->
         <div class="tab-content menu-h-sub">
-            <div role="tabpanel" class="tab-pane active" id="normal">
-                <img src="./static/2-1.png" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+            <div role="tabpanel" class="tab-pane active" id="normal" >
+                <!-- <img src="./static/2-1.png" class="img-responsive" alt="Responsive image"> -->
+                <div class="col-xs-4" style="height: 25rem;">
+                   <!--  <p><b>商品参数</b></p>
+                    <p><b>名称： 普通版成长记录册</b></p>
+                    <p><b>品牌： 家族旺旺</b></p>
+                    <p><b>封面材质： 250g铜版纸+覆膜</b></p>
+                    <p><b>内页材质：80g胶版纸+4P157g铜版纸</b></p>
+                    <p><b>印刷工艺：胶板纸黑白+铜版纸彩色印刷</b></p>
+                    <p><b>页数：作文正文50页和80页</b></p>
+                    <p><b>成品尺寸：210mm*235mm</b></p> -->
+                    <table style="height: 100%">
+                        <tr>
+                            <td>商品参数</td>
+                        </tr>
+                        <tr>
+                            <td>名称： 普通版成长记录册</td>
+                        </tr>
+                        <tr>
+                            <td>品牌： 家族旺旺</td>
+                        </tr>
+                        <tr>
+                            <td>封面材质： 250g铜版纸+覆膜</td>
+                        </tr>
+                        <tr>
+                            <td>内页材质：80g胶版纸+4P157g铜版纸</td>
+                        </tr>
+                        <tr>
+                            <td>印刷工艺：胶板纸黑白+铜版纸彩色印刷</td>
+                        </tr>
+                        <tr>
+                            <td>页数：作文正文50页和80页</td>
+                        </tr>
+                        <tr>
+                            <td>成品尺寸：210mm*235mm</td>
+                        </tr>
+                    </table>
+                </div>  
+                <div class="col-xs-8" style="height: 25rem;">
+                    <table style="height: 100%">
+                        <tr>
+                            <td> <img src="./static/2-1.png" class="img-responsive" alt="Responsive image"></td>
+                        </tr>
+                    </table>
+                </div>   
+                
             </div>
 
             <div role="tabpanel" class="tab-pane" id="better">
-                <img src="./static/2-2.png" width="100%" height="100%" class="img-responsive" alt="Responsive image">
+                <!-- <img src="./static/2-2.png" width="100%" height="100%" class="img-responsive" alt="Responsive image"> -->
+                 <div class="col-xs-4" style="height: 25rem;">
+                   <table style="height: 100%">
+                        <tr>
+                            <td>商品参数</td>
+                        </tr>
+                        <tr>
+                            <td>名称： 普通版成长记录册</td>
+                        </tr>
+                        <tr>
+                            <td>品牌： 家族旺旺</td>
+                        </tr>
+                        <tr>
+                            <td>封面材质： 250g铜版纸+覆膜</td>
+                        </tr>
+                        <tr>
+                            <td>内页材质：80g胶版纸+4P157g铜版纸</td>
+                        </tr>
+                        <tr>
+                            <td>印刷工艺：胶板纸黑白+铜版纸彩色印刷</td>
+                        </tr>
+                        <tr>
+                            <td>页数：作文正文50页和80页</td>
+                        </tr>
+                        <tr>
+                            <td>成品尺寸：210mm*235mm</td>
+                        </tr>
+                    </table>
+                </div>  
+                <div class="col-xs-8" style="height: 25rem;">
+                    <table style="height: 100%">
+                        <tr>
+                            <td> <img src="./static/2-1.png" class="img-responsive" alt="Responsive image"></td>
+                        </tr>
+                    </table>
+                </div>  
             </div>
         </div>
     </div>
 
-    <h4 id="about-us" class="menu-h">关于我们</h4>   
-    <div class="index-spliter"></div> 
-        <p class="text-left lead about-row">您可爱的宝贝天生就是设计师、小作家、摄影家、小画家、运动员……。他们快乐茁壮地成长，吸收了丰富的知识，
-            画了很多美丽的小图画，写了很多精彩的小文章，记忆他们成长的点点滴滴；可是，一段时间过去后，您突然发现：
-            他们成长的过程什么都没有留下，这些珍贵的记忆因没有精心整理而找不到了……
-            “家族旺旺”，专业记录少年儿童的成长，为孩子的成长和家长的付出留下记录和回忆！
-            把您的文章给“家族旺旺”，我们还给您一本孩子的成长录。
-            我们奉行：“你成长，我记录，你精彩，家兴旺”
+    <div class="goto-shop col-xs-12">
+
+        <p class="text-center">
+            <button type="button" class="btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;马上下单&nbsp;&nbsp;&nbsp;&nbsp;</button>
         </p>
 
-    <!-- 联系我们，地址信息 -->
-    <h4 id="contact-us" class="menu-h">联系方式</h4> 
-    <div class="index-spliter"></div>
-    <div class="contact-us row text-center">
-        <address class="text-left">
-            地址： 北京市海淀区上地东路 <br>
-            版权所有： 北京普度荣鸿科技有限公司<br>
-            电话：18300000000<br>
-            邮箱： jiazuww@126.com
-        </address>
-    </div>    
-
+    </div>
+    
     <!-- Swiper JS -->
     <script src="swiper.min.js"></script>
     
