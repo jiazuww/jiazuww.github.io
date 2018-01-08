@@ -15,6 +15,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.container-fix {
+    width: 970px !important;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
   .swiper-container {
     margin-top: 1px;  
     width: 100%;
@@ -51,7 +59,7 @@ body {
 
 .main-header{
     margin: 0;
-    padding: 5px 5px;
+    padding: 5px 82px;
     margin: 0 -15px;
 }
 .main-logo{
