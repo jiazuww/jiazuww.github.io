@@ -103,15 +103,27 @@ body {
     padding-top: 10px;
 }
 .product-different {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 .banner3{
     margin-top: 2rem;
 }
 .goto-shop{
     margin-top: 3rem;
-    margin-bottom: 10rem;
-
+    margin-bottom: 3rem;
+}
+.product-item{
+    background-color: #ddd;
+    padding: 12px 50px;
+    border-radius: 5px;
+    border: 1px solid lightgray; 
+}
+.product-item-info{
+    margin: 10px -35px 0 -35px;
+}
+.footer-bottom{
+    margin-bottom: 5rem;
 }
 
 
