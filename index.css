@@ -149,7 +149,8 @@ body {
     width:150px; 
     height:auto; 
     position:fixed; 
-    top:50%; left:5px;
+    top:90%; 
+    left:5px;
     z-index:8888; 
     background:#fff; 
     border:1px solid #d1d1d1;
@@ -183,10 +184,13 @@ body {
 .right_bar{ 
     width:28px; 
     height:95px; 
-    position:fixed; top:50%; 
+    position:fixed; 
+    top: 90%; 
     left:0; 
     margin-top:-242px; 
-    z-index:9999;}
+    z-index:9999;
+}
+
 .right_bar img{
     cursor:pointer;
 }
