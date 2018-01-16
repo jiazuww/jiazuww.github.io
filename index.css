@@ -146,7 +146,7 @@ body {
 
 /* 客服 */
 #kefu{ 
-    width:150px; 
+    width:200px; 
     height:auto; 
     position:fixed; 
     top:90%; 
@@ -156,7 +156,7 @@ body {
     border:1px solid #d1d1d1;
     border-top:2px solid #337ab7; 
     display:none;
-     margin-top:-240px;
+    margin-top:-240px;
 }
 #kefu .top{ 
     width:100%; 
@@ -167,9 +167,11 @@ body {
     color:#333; 
     font-weight:bold; 
     text-align:center;
+    padding-right: 25px;
 }
 #kefu .middle{ 
-    font-size:12px; 
+    font-size:14px; 
+    font-weight: 500;
     width:100%; 
     text-align:center;
 }
