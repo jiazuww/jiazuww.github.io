@@ -140,6 +140,15 @@ body {
     margin-top: 10px;
     margin-left: -25px;
 }
+.product-description-link-product{
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: -25px;
+    color: lightslategray;
+}
+
 .product-description-title{
     font-size: 16px;
     font-weight: 300;
