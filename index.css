@@ -133,6 +133,13 @@ body {
     font-weight: 300;
     margin-left: 2em;
 }
+.product-description-link{
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: -25px;
+}
 .product-description-title{
     font-size: 16px;
     font-weight: 300;
